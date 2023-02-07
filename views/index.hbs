@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create 3D Rooom</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="create-room">
+        <div class="input-container">
+          <label for="collection-symbol">Collection Link</label>
+          <input
+            id="collection-symbol"
+            type="text"
+            placeholder="Eg: https://algoxnft.com/collection/alvatars"
+            value=""
+          />
+        </div>        
+
+        <button type="submit">Create Room</button>
+        <p id="room-url" style="color: #fff; display: none">
+          Your room URL is: <br />
+          <a href="" target="_blank"></a>
+        </p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
